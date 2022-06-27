@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 //import com.google.firebase.auth.AuthResult;
 //import com.google.firebase.auth.FirebaseAuth;
 
@@ -58,20 +60,20 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     // Firebase function
-//    private void registerUser(String email_str, String pw_str) {
-//        FirebaseAuth auth = FirebaseAuth.getInstance();
-//        auth.createUserWithEmailAndPassword(email_str,pw_str).addOnCompleteListener(RegisterActivity.this, new OnCompleteListener<AuthResult>() {
-//            @Override
-//            public void onComplete(@NonNull Task<AuthResult> task) {
-//                if (task.isSuccessful()) {
-//                    Toast.makeText(RegisterActivity.this, "Successfully registered", Toast.LENGTH_SHORT).show();
-//                    startActivity(new Intent(RegisterActivity.this, AddRpiActivity.class));
-//                    finish();
-//                }
-//                else {
-//                    Toast.makeText(RegisterActivity.this, "Failed to register", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//        });
-//    }
-//}
+    private void registerUser(String email_str, String pw_str) {
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        auth.createUserWithEmailAndPassword(email_str,pw_str).addOnCompleteListener(RegisterActivity.this, new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if (task.isSuccessful()) {
+                    Toast.makeText(RegisterActivity.this, "Successfully registered", Toast.LENGTH_SHORT).show();
+                    //startActivity(new Intent(RegisterActivity.this, AddRpiActivity.class));
+                    finish();
+                }
+                else {
+                    Toast.makeText(RegisterActivity.this, "Failed to register", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
+}
