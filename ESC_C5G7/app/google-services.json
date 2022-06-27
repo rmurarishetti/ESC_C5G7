@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "683648926943",
+    "project_id": "esc--project",
+    "storage_bucket": "esc--project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683648926943:android:8fd2a0ed69f9accb4b956a",
+        "android_client_info": {
+          "package_name": "com.example.esc_c5g7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683648926943-5giih10k4fa95t2faug89g9qpsgjko8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABVtZlU_JTWRtZb6zvNmTItQfj1BkYEsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683648926943-5giih10k4fa95t2faug89g9qpsgjko8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
