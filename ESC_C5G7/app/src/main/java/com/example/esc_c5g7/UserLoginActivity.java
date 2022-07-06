@@ -4,10 +4,10 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AdminLoginActivity extends AppCompatActivity {
+public class UserLoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_adminlogin);
+        setContentView(R.layout.activity_userlogin);
     }
 }

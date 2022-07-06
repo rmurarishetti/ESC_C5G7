@@ -25,6 +25,14 @@ public class ChooseLoginActivity extends AppCompatActivity {
             }
         });
 
+        user_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ChooseLoginActivity.this, UserLoginActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }

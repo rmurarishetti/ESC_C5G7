@@ -24,6 +24,9 @@
         <activity
             android:name=".AdminLoginActivity"
             android:exported="false"/>
+        <activity
+            android:name=".UserLoginActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
