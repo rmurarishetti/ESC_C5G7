@@ -18,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ChooseLoginActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>

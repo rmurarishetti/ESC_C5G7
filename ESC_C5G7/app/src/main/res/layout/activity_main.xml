@@ -9,7 +9,7 @@
 
 
     <Button
-        android:id="@+id/userlogin"
+        android:id="@+id/userloginbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="User Login"
@@ -18,7 +18,7 @@
          />
 
     <Button
-        android:id="@+id/adminlogin"
+        android:id="@+id/adminloginbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Admin Login"
