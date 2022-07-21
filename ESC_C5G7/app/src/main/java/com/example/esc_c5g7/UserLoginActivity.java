@@ -32,8 +32,8 @@ public class UserLoginActivity extends AppCompatActivity {
         registerText = findViewById(R.id.tv_notReg);
         firebaseAuth = FirebaseAuth.getInstance();
         login = (Button) findViewById(R.id.user_button_login);
-        email = (EditText)findViewById(R.id.et_email);
-        password = (EditText)findViewById(R.id.et_password);
+        email = (EditText)findViewById(R.id.et_user_email);
+        password = (EditText)findViewById(R.id.et_user_password);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,7 +79,7 @@ public class UserLoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Toast.makeText(UserLoginActivity.this, "Login Success", Toast.LENGTH_SHORT).show();
                             finish();
-                            //startActivity(new Intent(getApplicationContext(), UserMainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), DocumentSubmissionActivity.class));
                             FirebaseUser user = firebaseAuth.getCurrentUser();
                             //if login successful, goes to Homepage
                         } else {
