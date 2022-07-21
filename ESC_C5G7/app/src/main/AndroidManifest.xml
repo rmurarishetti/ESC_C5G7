@@ -37,6 +37,9 @@
         <activity
             android:name=".DocumentSubmissionActivity"
             android:exported="false"/>
+        <activity
+            android:name=".UserParticularsActivity"
+            android:exported="false"/>
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"

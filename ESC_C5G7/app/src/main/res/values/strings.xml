@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ESC_C5G7</string>
     <string name="submission_display_text">Hi User! Please select your country and upload the necessary documents.</string>
+    <string name="particulars_display_text">Welcome to our app! To proceed further, you must submit your particulars listed below.</string>
 </resources>
