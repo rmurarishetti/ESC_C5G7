@@ -2,9 +2,10 @@
   <library name="Gradle: com.google.android.gms:play-services-safetynet:17.0.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/370a890e40bcf76e8259477a3f83f2a5/transformed/play-services-safetynet-17.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/826dda70651e8dc03a86d31edd5f1256/transformed/play-services-safetynet-17.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/826dda70651e8dc03a86d31edd5f1256/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/826dda70651e8dc03a86d31edd5f1256/transformed/play-services-safetynet-17.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/239745d224333fac160204b58d0e387f/transformed/play-services-safetynet-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/239745d224333fac160204b58d0e387f/transformed/play-services-safetynet-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/239745d224333fac160204b58d0e387f/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
