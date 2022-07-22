@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
         }
-
+        TextView welcomeText = findViewById(R.id.welcomeText);
         ImageView paypal_logo = findViewById(R.id.paypal);
         paypal_logo.setOnClickListener(new View.OnClickListener() {
             @Override
