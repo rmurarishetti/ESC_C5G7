@@ -2,4 +2,21 @@
     <string name="app_name">ESC_C5G7</string>
     <string name="submission_display_text">Hi User! Please select your country and upload the necessary documents.</string>
     <string name="particulars_display_text">Welcome to our app! To proceed further, you must submit your particulars listed below.</string>
+
+    <string-array name="all_countries">
+        <item>Select Country</item>
+        <item>India</item>
+        <item>Singapore</item>
+    </string-array>
+    <string-array name="india_document_type">
+        <item>Please select document type</item>
+        <item>Aadhar Card</item>
+        <item>Electricity Bill</item>
+    </string-array>
+    <string-array name="singapor_document_type">
+        <item>Please select document type</item>
+        <item>NRIC</item>
+        <item>CPF Statement</item>
+    </string-array>
+
 </resources>

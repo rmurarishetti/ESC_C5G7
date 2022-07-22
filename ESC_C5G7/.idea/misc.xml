@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/bg_white_round_black_border.xml" value="0.1335" />
         <entry key="app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.1335" />
+        <entry key="app/src/main/res/layout/activity_adminhome.xml" value="0.11319966583124477" />
         <entry key="app/src/main/res/layout/activity_adminlogin.xml" value="0.11290322580645161" />
         <entry key="app/src/main/res/layout/activity_chooselogin.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2296875" />
