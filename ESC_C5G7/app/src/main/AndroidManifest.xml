@@ -40,6 +40,8 @@
         <activity
             android:name=".UserParticularsActivity"
             android:exported="false"/>
+        <activity android:name=".AdminHomeActivity"
+            android:exported="false"/>
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
