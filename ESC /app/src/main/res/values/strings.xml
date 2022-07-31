@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ESC_C5G7</string>
+    <string name="no_record_found">No Record Found</string>
+    <string name="amount">Amount</string>
+    <string name="account_number_iban">Account number/IBAN</string>
+
+    <string-array name="all_countries">
+        <item>Select Country</item>
+        <item>India</item>
+        <item>Singapore</item>
+    </string-array>
+    <string-array name="india_document_type">
+        <item>Please select document type</item>
+        <item>Adhar Card</item>
+        <item>Electricity Bill</item>
+    </string-array>
+    <string-array name="singapor_document_type">
+        <item>Please select document type</item>
+        <item>NRIC</item>
+        <item>CPF Statement</item>
+    </string-array>
+
+
+</resources>

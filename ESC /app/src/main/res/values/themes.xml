@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ESC_C5G7" parent="Theme.Material3.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal_200</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_500</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/aqua_blue</item>
+        <item name="colorPrimaryDark">@color/aqua_blue</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:background">@drawable/bg_dialog</item>
+    </style>
+</resources>
